@@ -1,0 +1,18 @@
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+// grid list
+@for $i from 1 through 12 {
+	.col-#{$i} {
+		width: 100% / 12 * $i;
+
+		@include responsive(mobile) {
+			width: 100%;
+		}
+		@include responsive(tablet) {
+			width: 100%;
+		}
+	}
+}
