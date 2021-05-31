@@ -2,21 +2,18 @@
 
 > DArticles is a Blogging Site built with Node.js, React, Redux, Express, MongoDB
 
-### Env Variables
-
-Add your config variables values in the .env file in root folder .
 
 ### Install Dependencies (Frontend)
 
 ```
 cd frontend
-npm i
+npm install
 ```
 
 ### Install Dependencies (Backend)
 
 ```
-npm i
+npm install
 ```
 
 ### Developed By Deepak Singh Parmar
